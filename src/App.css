@@ -1,0 +1,99 @@
+/* Styles for the dashboard container */
+.dashboard-container {
+  background-image: url("https://t3.ftcdn.net/jpg/05/51/95/26/360_F_551952602_vp8d4v2nDYo8UExEpxFOtMMv8uOzPaq9.jpg");
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Adjust the height to fill the viewport */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* Styles for the dashboard title */
+.dashboard-title {
+  margin-bottom: 20px; /* Add space below the title */
+  text-align: center; /* Center align the text */
+}
+
+/* Styles for the search bar container */
+.search-bar-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  margin-bottom: 40px; /* Add space below the search bar */
+}
+
+/* Styles for elements inside the search bar container */
+.search-bar-container > * {
+  margin-bottom: 10px; /* Add space between elements */
+}
+
+/* Styles for the weather details section */
+.weather-details {
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Styles for the container of weather details */
+.weather-details-container {
+  background-color: #f0f0f0; /* Set background color */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  display: grid; /* Use grid layout */
+  grid-template-rows: 3fr 1fr; /* Define grid rows */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+/* Styles for the city name */
+.city-name {
+  margin-bottom: 20px; /* Add space below the city name */
+}
+
+/* Styles for today's weather */
+.today {
+  background-color: #fff; /* Set background color */
+  border: 2px solid #007bff; /* Add border */
+  padding: 20px; /* Add padding */
+}
+
+/* Styles for each day's weather */
+.weather-day {
+  margin-bottom: 15px; /* Add space below each day's weather */
+  border-bottom: 1px solid #ccc; /* Add bottom border */
+  padding-bottom: 10px; /* Add padding below each day's weather */
+}
+
+/* Styles for the day name */
+.day-name {
+  font-weight: bold; /* Set font weight to bold */
+  margin-bottom: 5px; /* Add space below the day name */
+}
+
+/* Styles for temperature and clouds */
+.temperature,
+.clouds {
+  margin-bottom: 5px; /* Add space below temperature and clouds */
+}
+
+/* Styles for the cloud image */
+.cloud-image {
+  width: 100px; /* Set width */
+  height: 60px; /* Set height */
+  background-size: cover; /* Ensure image covers the container */
+  margin-top: 5px; /* Add space above the image */
+}
+
+/* Styles for the background image */
+.background-image {
+  background-image: url("https://t3.ftcdn.net/jpg/05/51/95/26/360_F_551952602_vp8d4v2nDYo8UExEpxFOtMMv8uOzPaq9.jpg");
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+  height: 100%; /* Set height to fill the container */
+  width: 100%; /* Set width to fill the container */
+  color: white; /* Set text color */
+}
+
+/* Styles for the content container */
+.content-container {
+  display: flex; /* Use flexbox for layout */
+  gap: 15px; /* Set gap between children */
+}
